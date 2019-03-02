@@ -1,10 +1,14 @@
-body, html {
+@import url('https://fonts.googleapis.com/css?family=Abel|Barlow+Semi+Condensed:400,600,700,800|Baumans| Carrois+Gothic|Comfortaa|Didact+Gothic|Expletus+Sans|Heebo:700|M+PLUS+Rounded+1c|Meera+Inimai|Montserrat:400,700|NTR|Oxygen|Russo+One|ZCOOL+QingKe+HuangYou|Archivo:400,400i,700,700i|Arimo:400,400i,700,700i|Asap:400,400i,700,700i|Assistant:400,700');
+
+body, html, p {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Abel|Barlow+Semi+Condensed|Baumans| Carrois+Gothic|Comfortaa|Didact+Gothic|Expletus+Sans|Heebo:700|M+PLUS+Rounded+1c|Meera+Inimai|Montserrat:400,700|NTR|Oxygen|Russo+One|ZCOOL+QingKe+HuangYou');
+img {
+    width: 100%;
+}
 
 main {
     width: 850px;
@@ -63,26 +67,23 @@ h2 {
     font-size: 3.5em;
     border-bottom: 0.05em solid #333333;
     padding-bottom: 0.2em;
-    margin-top: 1.5em;
+    margin-top: 4em;
     color: #333333;
 }
 
-h3 {
+main > section h2 {
+    width: 100%;
+}
+
+/* Lettertypes */
+
+main > section:first-of-type h3 {
     margin-bottom: 1em;
     margin-top: 0.5em;
     font-size: 3em;
     padding-top: 10px;
     width: 100%;
     line-height: 1.2em;
-}
-
-p {
-    margin: 0;
-    padding: 0;
-}
-
-main > section h2 {
-    width: 100%;
 }
 
 main > section:first-of-type {
@@ -166,4 +167,44 @@ main section:first-of-type > section:nth-of-type(14) {
 main section:first-of-type > section:nth-of-type(15) {
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     border-color: orange;
+}
+
+
+
+/* Gekozen fonts */
+
+main > section:nth-of-type(2) h3 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+main > section:nth-of-type(2) p {
+    margin-top: 0.8em;
+    margin-bottom: 5em;
+    padding-bottom: 1em;
+    font-size: 1.1em;
+    line-height: 1.4em;
+    color: #333333;
+}
+
+main > section:nth-of-type(2) p:first-of-type {
+    font-family: 'Assistant', sans-serif;
+    border-bottom: 1px solid blue;
+}
+
+main > section:nth-of-type(2) p:nth-of-type(2) {
+    font-family: 'Arimo', sans-serif;
+    border-bottom: 1px solid green;
+}
+
+main > section:nth-of-type(2) p:nth-of-type(3) {
+    font-family: 'Asap', sans-serif;
+    border-bottom: 1px solid green;
+}
+
+main > section:nth-of-type(2) p:nth-of-type(4) {
+    font-family: 'Archivo', sans-serif;
+    border-bottom: 1px solid orange;
 }
