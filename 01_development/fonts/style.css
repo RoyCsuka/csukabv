@@ -1,0 +1,169 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Abel|Barlow+Semi+Condensed|Baumans| Carrois+Gothic|Comfortaa|Didact+Gothic|Expletus+Sans|Heebo:700|M+PLUS+Rounded+1c|Meera+Inimai|Montserrat:400,700|NTR|Oxygen|Russo+One|ZCOOL+QingKe+HuangYou');
+
+main {
+    width: 850px;
+    margin: 5em auto 0 auto;
+}
+
+main > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main div > div {
+    width: 20%;
+    display: inline-flex;
+    padding: 1em;
+    background-color: #f2f2f2;
+    color: #333333;
+    box-sizing: border-box;
+}
+
+main div > div:first-of-type {
+    border-top: 2px solid blue;
+}
+
+main div > div:nth-of-type(2) {
+    border-top: 2px solid green;
+}
+
+main div > div:nth-of-type(3) {
+    border-top: 2px solid orange;
+}
+
+main div > div:nth-of-type(4) {
+    border-top: 2px solid red;
+}
+
+section > section:nth-of-type(2n+2){
+    margin-left: 10%;
+}
+
+section > section {
+    width: 45%;
+    border-top: 2px grey solid;
+}
+
+h1 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 4em;
+    border-bottom: 0.2em solid #333333;
+    padding-bottom: 0.2em;
+}
+
+h2 {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-size: 3.5em;
+    border-bottom: 0.05em solid #333333;
+    padding-bottom: 0.2em;
+    margin-top: 1.5em;
+    color: #333333;
+}
+
+h3 {
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    font-size: 3em;
+    padding-top: 10px;
+    width: 100%;
+    line-height: 1.2em;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+main > section h2 {
+    width: 100%;
+}
+
+main > section:first-of-type {
+    width: 100%;
+    justify-content: space-between;
+    display: inline-flex;
+    flex-wrap: wrap;
+    border-bottom: 2px grey solid;
+}
+
+main section:first-of-type > section:first-of-type {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    border-color: blue;
+}
+
+main section:first-of-type > section:nth-of-type(2) {
+    font-family: 'Didact Gothic', sans-serif;
+    border-color: blue;
+}
+
+main section:first-of-type > section:nth-of-type(3) {
+    font-family: 'Oxygen', sans-serif;
+    border-color: blue;
+}
+
+main section:first-of-type > section:nth-of-type(4) {
+    font-family: 'Abel', sans-serif;
+    border-color: green;
+}
+
+main section:first-of-type > section:nth-of-type(5) {
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    border-color: green;
+}
+
+main section:first-of-type > section:nth-of-type(6) {
+    font-family: 'NTR', sans-serif;
+    border-color: green;
+}
+
+main section:first-of-type > section:nth-of-type(7) {
+    font-family: 'Meera Inimai', sans-serif;
+    border-color: green;
+}
+
+main section:first-of-type > section:nth-of-type(8) {
+    font-family: 'Heebo', sans-serif;
+    border-color: orange;
+}
+
+main section:first-of-type > section:nth-of-type(9) {
+    font-family: 'Montserrat', sans-serif;
+    border-color: orange;
+}
+
+main section:first-of-type > section:nth-of-type(10) {
+    font-family: 'Russo One', sans-serif;
+    border-color: red;
+}
+
+main section:first-of-type > section:nth-of-type(11) {
+    font-family: 'Baumans', cursive;
+    border-color: orange;
+}
+
+main section:first-of-type > section:nth-of-type(12) {
+    font-family: 'Carrois Gothic', sans-serif;
+    border-color: orange;
+}
+
+main section:first-of-type > section:nth-of-type(13) {
+    font-family: 'Comfortaa', cursive;
+    border-color: orange;
+}
+
+main section:first-of-type > section:nth-of-type(14) {
+    font-family: 'Expletus Sans', cursive;
+    border-color: orange;
+}
+
+main section:first-of-type > section:nth-of-type(15) {
+    font-family: 'ZCOOL QingKe HuangYou', cursive;
+    border-color: orange;
+}
